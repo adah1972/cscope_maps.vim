@@ -77,7 +77,7 @@ if has("cscope")
     " used to switch between Hebrew and English keyboard mode.
     "
     " All of the maps involving the <cfile> macro use '^<cfile>$': this is so
-    " that searches over '#include <time.h>" return only references to
+    " that searches over '#include <time.h>' return only references to
     " 'time.h', and not 'sys/time.h', etc. (by default cscope will return all
     " files that contain 'time.h' as part of their name).
 
